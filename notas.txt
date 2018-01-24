@@ -1,0 +1,34 @@
+
+AJAX Y json
+-Hay que tener especial cuidado con la url,
+debe cambiar al realizar el cambio de producto.
+es necesario que aparezca el botón de ir atrás y que la url
+corresponda con el producto que se está mostrando.
+Esta técnica solo vale para html 5
+importante boton de carga
+div de posicion fija, zindex para estar encima de todo.
+100%ancho 100% largo
+volver a posicion top
+espera minimo 300 ms o el tiempo q tarde en cargar o
+tiempo de carga + 300ms
+
+history.pushState(jData, null, href)
+
+habria que hacer que devuelva el json de todos los relacionados
+
+en getRelacionados
+añado al query
+ORDER BY RAND()
+
+
+CARGA ASINCRONA EN LA MISMA PÁGINA
+Si hay más páginas te pone ver más, sino te pone fin de productos.
+append de la página siguiente.
+ver más debe tener un enlace de la página siguiente para el indexar de google.
+Al cargar una página deberían cargarme las anteriores.
+Debe tener boton para cargar la página anterior.
+
+SCROLL INFINITO SIN CLICK
+Cuando llega al bottom se cargan los siguientes
+al llegar a bottom debe aparecer icono de load y cargar los siguientes productos.
+asdasdaasd
